@@ -3,6 +3,10 @@
 
 This plugin was originally designed for [Fly UK](https://flyuk.aero) but is tracker software agnostic and will work for any VA.
 
+### Requirements
+
+This plugin requires a minimum X-Plane version of 11.10
+
 ### Installation Instructions
 
 * Download the latest version from [here](https://github.com/skslater/SkyTrackReminder/releases) or compile it yourself from source.
