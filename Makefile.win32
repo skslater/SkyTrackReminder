@@ -1,0 +1,3 @@
+win.xpl: SkyTrackReminder.c
+    cl.exe /ISDK\CHeaders\XPLM /DIBM /DXPLM200 /DXPLM210 /DXPLM300 /c SkyTrackReminder.c
+    link.exe /LIBPATH:SDK\Libraries\Win /DLL /OUT:win.xpl SkyTrackReminder.obj XPLM_64.lib

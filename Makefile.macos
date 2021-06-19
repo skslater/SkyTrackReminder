@@ -1,0 +1,3 @@
+mac.xpl: SkyTrackReminder.c
+	gcc -Wall -O2 -arch x86_64 -fvisibility=hidden -ISDK/CHeaders/XPLM -DAPL -DXPLM200 -DXPLM210 -DXPLM300 -o SkyTrackReminder.o -c SkyTrackReminder.c
+	gcc -arch x86_64 -bundle -undefined dynamic_lookup -single_module -o mac.xpl SkyTrackReminder.o
